@@ -10,3 +10,5 @@ http://blog.ismaelvalenzuela.com/2018/10/11/intelligence-driven-defense-successf
 
 Getting SecOps Foundations Right with Techniques, Tactics, and Procedures Zero (TTP0) - 2018
 http://blog.ismaelvalenzuela.com/2018/11/01/getting-secops-foundations-right-with-techniques-tactics-and-procedures-zero-ttp0/
+
+More on http://abousecurity.io
