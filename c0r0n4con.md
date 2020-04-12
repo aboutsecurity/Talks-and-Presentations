@@ -2,7 +2,9 @@
 
 # Herramientas
 
-    Mitre
+    - MITRE ATT&CK Navigator https://mitre-attack.github.io/attack-navigator/enterprise/#
+    - MITRE Jypiter Notebook https://mybinder.org/v2/gh/mitre-attack/attack-scripts/master
+    - DeTTECT https://github.com/rabobank-cdc/DeTTECT/
 
 # Instalar
 
@@ -14,14 +16,24 @@
 
 # Usar Editor Local
 
-    python dettect.py editor
+    1. python dettect.py editor
     
-    Abril en el navegador http://localhost:8080/dettect-editor
+    2. Abre en el navegador http://localhost:8080/dettect-editor
     
-    Recuerda guardar los archivos YAML editados. Por defecto se guardarán en tus archivos de descarga.
+    3. Recuerda guardar los archivos YAML editados. Por defecto se guardarán en tus archivos de descarga.
     
 # Data Sources
     
-    python dettect.py ds -fd sample-data/data-sources-endpoints.yaml -l
+    1. Genera tu primera capa en ATT&CK Navigator en base a las fuentes de datos disponibles en tu entorno:
+       
+       python dettect.py ds -fd sample-data/data-sources-endpoints.yaml -l
+       
+    2. Importa el fichero JSON generado en /output en ATT&CK Navigator 
+    
+# Visibilidad
+    
+    1. Ajusta la visibilidad asignando scores individuales a cada técnica. El siguiente comando genera un archivo de técnicas que solo incluye aquellas para las que hemos definido visibilidad anteriormente.
+ 
+        python dettect.py ds -fd sample-data/data-sources-endpoints.yaml --yaml
 
 
