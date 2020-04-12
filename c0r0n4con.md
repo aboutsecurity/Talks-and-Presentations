@@ -6,13 +6,29 @@
     - MITRE Jypiter Notebook https://mybinder.org/v2/gh/mitre-attack/attack-scripts/master
     - DeTTECT https://github.com/rabobank-cdc/DeTTECT/
 
-# Instalar
+# Instalar DeTT&CT:
 
+Descarga la imagen docker:
 
+    docker pull rabobankcdc/dettect:latest
 
-# Ejecutar 
+# Iniciar DeTT&CT:
 
-    docker start -i dettect
+Linux y MacOS: 
+
+    docker run -p 8080:8080 -v $(pwd)/output:/opt/DeTTECT/output -v $(pwd)/input:/opt/DeTTECT/input --name dettect -it rabobankcdc/dettect:latest /bin/bash
+
+Windows (cmd.exe): 
+
+    docker run -p 8080:8080 -v %cd%/output:/opt/DeTTECT/output -v %cd%/input:/opt/DeTTECT/input --name dettect -it rabobankcdc/dettect:latest /bin/bash
+
+PowerShell: 
+
+    docker run -p 8080:8080 -v ${PWD}/output:/opt/DeTTECT/output -v ${PWD}/input:/opt/DeTTECT/input --name dettect -it rabobankcdc/dettect:latest /bin/bash
+ 
+Iniciar el container:
+
+    docker start -i dettect 
 
 # Usar Editor Local
 
