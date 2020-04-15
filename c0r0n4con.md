@@ -16,7 +16,7 @@ Download the docker image:
 
 # Start DeTT&CT:
 
-Linux y MacOS: 
+Linux & MacOS: 
 
     docker run -p 8080:8080 -v $(pwd)/output:/opt/DeTTECT/output -v $(pwd)/input:/opt/DeTTECT/input --name dettect -it rabobankcdc/dettect:latest /bin/bash
 
