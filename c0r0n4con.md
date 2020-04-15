@@ -52,7 +52,7 @@ Import the JSON file in ATT&CK Navigator
     
 # Adjust Visibility & Detection
     
-Adjust visibility and detection assigning individual scores to each technique. The following command will generate a file of techniiques that will only include those for which we have defined data sources previously. 
+Adjust visibility and detection assigning individual scores to each technique. The following command will generate a file of techniques that will only include those for which we have defined data sources previously. 
  
     python dettect.py ds -fd sample-data/data-sources-endpoints.yaml --yaml
 
