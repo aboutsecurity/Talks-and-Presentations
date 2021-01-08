@@ -5,6 +5,9 @@ Slides and Other Resources from my latest Talks and Presentations
 
 by Ismael Valenzuela (@aboutsecurity)
 
+Prioritizing your Threat Hunting & Blue Teaming strategy with MITRE ATT&CK analytics
+https://github.com/aboutsecurity/Talks-and-Presentations/blob/master/Prioritizing%20your%20Threat%20Hunting%20%26%20Blue%20Teaming%20strategy%20with%20MITRE%20ATT%26CK%20analytics.pdf
+
 Intelligence Driven Defense: Successfully Embedding Cyber Threat Intel in Security Operations - 2018
 http://blog.ismaelvalenzuela.com/2018/10/11/intelligence-driven-defense-successfully-embedding-cyber-threat-intel-in-security-operations/
 
